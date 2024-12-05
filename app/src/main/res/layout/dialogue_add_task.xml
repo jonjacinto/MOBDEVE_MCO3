@@ -21,7 +21,7 @@
         android:padding="5dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/media_add_title"
+            android:id="@+id/task_add_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:maxLines="1"
@@ -38,7 +38,7 @@
         android:padding="5dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/media_add_duration"
+            android:id="@+id/task_add_tag"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:maxLines="1"
@@ -50,16 +50,12 @@
 
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:maxLines="1"
-        android:padding="5dp"
-        android:layout_margin="5dp"
-        android:text="Pick Date"
-        android:textColor="@color/black"
-        android:backgroundTint="@color/white"/>
+    <DatePicker
+        android:id="@+id/task_deadline"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp" />
 
 
 </LinearLayout>
